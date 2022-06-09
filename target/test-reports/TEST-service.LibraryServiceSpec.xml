@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-OP" name="service.LibraryServiceSpec" tests="11" errors="0" failures="1" skipped="0" time="2.283" timestamp="2022-06-09T14:58:34">
+          <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_51\bin"/><property name="java.vm.version" value="25.51-b03"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\dev\scala_dev\RestorantHttp\RestorantHttp"/><property name="java.runtime.version" value="1.8.0_51-b16"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_51\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\OLESLA~1\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="user.variant" value=""/><property name="os.name" value="Windows 8.1"/><property name="sun.jnu.encoding" value="Cp1251"/><property name="jnidispatch.path" value="C:\Users\OLESLA~1\AppData\Local\Temp\jna--1369266787\jna6735459427911002096.dll"/><property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_51\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jre1.8.0_51\bin;C:\dev\VulkanSDK\1.2.176.1\Bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Polyspace\R2019b\runtime\win64;C:\Program Files\Polyspace\R2019b\bin;C:\Program Files\Polyspace\R2019b\polyspace\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Graphviz\bin;C:\Program Files (x86)\Eigen3\include\eigen3\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\sbt\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Python39\Scripts\;C:\Python39\;C:\Users\Oleslav Boychuk\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Oleslav Boychuk\AppData\Local\Programs\Python\Python37-32\;C:\Users\Oleslav Boychuk\.poetry\bin;C:\Users\Oleslav Boychuk\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;C:\Program Files\JetBrains\CLion 2019.3.3\bin;C:\Users\Oleslav Boychuk\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2020.1.2\bin;C:\src\flutter\bin;C:\msys64\mingw64\bin;C:\MinGW\bin;C:\Users\Oleslav Boychuk\AppData\Local\Programs\pyenv\pyenv-win\bin;C:\Users\Oleslav Boychuk\AppData\Local\Microsoft\WindowsApps;C:\Users\Oleslav Boychuk\AppData\Roaming\npm;C:\Users\Oleslav Boychuk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Oleslav Boychuk\.dotnet\tools;C:\Program Files\Graphviz\bin;C:\Libraries\GLAD\src;C:\Libraries\GLAD\include;C:\Libraries;C:\Users\Oleslav Boychuk\AppData\Local\Coursier\data\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jre1.8.0_51\bin;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="6.3"/><property name="swoval.tmpdir" value="C:\Users\Oleslav Boychuk\.sbt\1.0"/><property name="user.home" value="C:\Users\Oleslav Boychuk"/><property name="user.timezone" value="Europe/Helsinki"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\\bin\sbt-launch.jar"/><property name="user.name" value="Oleslav Boychuk"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot test"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_51"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_51"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_51\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_51\lib\resources.jar;C:\Program Files\Java\jre1.8.0_51\lib\rt.jar;C:\Program Files\Java\jre1.8.0_51\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_51\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_51\lib\jce.jar;C:\Program Files\Java\jre1.8.0_51\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_51\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_51\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp866"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp866"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+          <testcase classname="service.LibraryServiceSpec" name="LibraryService should create a user" time="2.113">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should update a user" time="0.021">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should return a single user" time="0.003">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should return all users" time="0.07">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should delete a user" time="0.003">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should create a restaurant" time="0.015">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should update a restaurant" time="0.012">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should return a single restaurant" time="0.002">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should return all authors" time="0.008">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should delete a restaurant" time="0.001">
+                      
+                    </testcase><testcase classname="service.LibraryServiceSpec" name="LibraryService should create a feedback" time="0.035">
+                      <failure message="{
+  &quot;id&quot; : 1,
+  &quot;description&quot; : &quot;От параша більше їсти тут не буду&quot;,
+  &quot;rating&quot; : 0,
+  &quot;restaurant_id&quot; : 1,
+  &quot;user_id&quot; : 1
+} was not equal to {
+  &quot;id&quot; : 1,
+  &quot;name&quot; : &quot;От параша більше їсти тут не буду&quot;,
+  &quot;restaurant_id&quot; : 1,
+  &quot;user_id&quot; : 1
+}" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: {
+  &quot;id&quot; : 1,
+  &quot;description&quot; : &quot;От параша більше їсти тут не буду&quot;,
+  &quot;rating&quot; : 0,
+  &quot;restaurant_id&quot; : 1,
+  &quot;user_id&quot; : 1
+} was not equal to {
+  &quot;id&quot; : 1,
+  &quot;name&quot; : &quot;От параша більше їсти тут не буду&quot;,
+  &quot;restaurant_id&quot; : 1,
+  &quot;user_id&quot; : 1
+}
+	at org.scalatest.matchers.MatchersHelper$.indicateFailure(MatchersHelper.scala:339)
+	at org.scalatest.matchers.should.Matchers$AnyShouldWrapper.shouldBe(Matchers.scala:6982)
+	at service.LibraryServiceSpec.$anonfun$new$12(LibraryServiceSpec.scala:224)
+	at service.LibraryServiceSpec$$Lambda$5239/537405327.apply(Unknown Source)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.wordspec.AnyWordSpecLike$$anon$3.apply(AnyWordSpecLike.scala:1077)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at service.LibraryServiceSpec.org$scalamock$scalatest$AbstractMockFactory$$super$withFixture(LibraryServiceSpec.scala:17)
+	at org.scalamock.scalatest.AbstractMockFactory.$anonfun$withFixture$1(AbstractMockFactory.scala:35)
+	at org.scalamock.scalatest.AbstractMockFactory$$Lambda$5286/119380445.apply(Unknown Source)
+	at org.scalamock.MockFactoryBase.withExpectations(MockFactoryBase.scala:41)
+	at org.scalamock.MockFactoryBase.withExpectations$(MockFactoryBase.scala:33)
+	at service.LibraryServiceSpec.withExpectations(LibraryServiceSpec.scala:17)
+	at org.scalamock.scalatest.AbstractMockFactory.withFixture(AbstractMockFactory.scala:34)
+	at org.scalamock.scalatest.AbstractMockFactory.withFixture$(AbstractMockFactory.scala:31)
+	at service.LibraryServiceSpec.withFixture(LibraryServiceSpec.scala:17)
+	at org.scalatest.wordspec.AnyWordSpecLike.invokeWithFixture$1(AnyWordSpecLike.scala:1075)
+	at org.scalatest.wordspec.AnyWordSpecLike.$anonfun$runTest$1(AnyWordSpecLike.scala:1087)
+	at org.scalatest.wordspec.AnyWordSpecLike$$Lambda$5276/400148603.apply(Unknown Source)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTest(AnyWordSpecLike.scala:1087)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTest$(AnyWordSpecLike.scala:1069)
+	at org.scalatest.wordspec.AnyWordSpec.runTest(AnyWordSpec.scala:1879)
+	at org.scalatest.wordspec.AnyWordSpecLike.$anonfun$runTests$1(AnyWordSpecLike.scala:1146)
+	at org.scalatest.wordspec.AnyWordSpecLike$$Lambda$5260/559946161.apply(Unknown Source)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:413)
+	at org.scalatest.SuperEngine$$Lambda$5261/339310122.apply(Unknown Source)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:427)
+	at org.scalatest.SuperEngine$$Lambda$5261/339310122.apply(Unknown Source)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTests(AnyWordSpecLike.scala:1146)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTests$(AnyWordSpecLike.scala:1145)
+	at org.scalatest.wordspec.AnyWordSpec.runTests(AnyWordSpec.scala:1879)
+	at org.scalatest.Suite.run(Suite.scala:1112)
+	at org.scalatest.Suite.run$(Suite.scala:1094)
+	at org.scalatest.wordspec.AnyWordSpec.org$scalatest$wordspec$AnyWordSpecLike$$super$run(AnyWordSpec.scala:1879)
+	at org.scalatest.wordspec.AnyWordSpecLike.$anonfun$run$1(AnyWordSpecLike.scala:1191)
+	at org.scalatest.wordspec.AnyWordSpecLike$$Lambda$5253/1075078720.apply(Unknown Source)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
+	at org.scalatest.wordspec.AnyWordSpecLike.run(AnyWordSpecLike.scala:1191)
+	at org.scalatest.wordspec.AnyWordSpecLike.run$(AnyWordSpecLike.scala:1189)
+	at org.scalatest.wordspec.AnyWordSpec.run(AnyWordSpec.scala:1879)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:318)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:513)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:146)
+	at sbt.TestRunner.run(TestFramework.scala:161)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:324)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1$$Lambda$5189/708317629.apply(Unknown Source)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:284)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:324)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:324)
+	at sbt.TestFunction.apply(TestFramework.scala:336)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:435)
+	at sbt.Tests$$$Lambda$5169/1750030887.apply(Unknown Source)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
+	at sbt.std.Transform$$anon$3$$Lambda$2664/1488352537.apply(Unknown Source)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.Execute$$Lambda$2684/768796505.apply(Unknown Source)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.Execute$$Lambda$2667/1586246816.apply(Unknown Source)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.ConcurrentRestrictions$$anon$4$$Lambda$2680/1077464378.apply(Unknown Source)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

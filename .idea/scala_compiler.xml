@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="RestorantHttp" />
+    <profile name="sbt 2" modules="Restaurant Feedback System,todo http4s doobie">
+      <option name="deprecationWarnings" value="true" />
+      <parameters>
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xlint:missing-interpolator" />
+      </parameters>
+    </profile>
+  </component>
+</project>

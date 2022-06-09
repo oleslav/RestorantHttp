@@ -1,0 +1,44 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\dev\scala_dev\RestorantHttp\RestorantHttp\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$18$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$14$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$17$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$25$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$14$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$18$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$18$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$14$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$17$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$25$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$14$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$18$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$18$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$14$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$17$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$25$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$10$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$macro$14$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryRepository$anon$generic$macro$18$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\dev\scala_dev\RestorantHttp\RestorantHttp\target\scala-2.13\classes.bak[0m

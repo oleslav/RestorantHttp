@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mC:\dev\scala_dev\RestorantHttp\RestorantHttp\src\main\scala\HttpServer.scala:14:31: Cannot find an implicit value for Timer[cats.effect.IO]:[0m
+[0m[[0m[31merror[0m] [0m[0m* import Timer[cats.effect.IO] from your effects library[0m
+[0m[[0m[31merror[0m] [0m[0m* if using IO, use cats.effect.IOApp or build one with cats.effect.IO.timer[0m
+[0m[[0m[31merror[0m] [0m[0m    resources(configFile).use(create)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
