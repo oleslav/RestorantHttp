@@ -15,7 +15,7 @@ class LibraryService(repository: LibraryRepository) extends Http4sDsl[IO] {
 
   val routes: HttpRoutes[IO] = HttpRoutes.of[IO] {
 
-    case GET -> Root / "users" =>github
+    case GET -> Root / "users" =>
       Ok(Stream("[") ++ repository.getUsers.map(_.asJson.noSpaces).intersperse(",") ++ Stream("]"), `Content-Type`(MediaType.application.json))
 
     case GET -> Root / "feedbacks" =>
